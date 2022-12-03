@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "Roboto";
 }
 
 body {
@@ -13,7 +14,9 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    padding: 0px;
+    padding-top: 16px;
+    padding-left: 200px;
+    padding-right: 200px;
     border: 3px solid red; /* Debugging */
 }
 
@@ -22,9 +25,9 @@ body {
     justify-content: space-between;
     align-content: center;
     color: white;
-    padding: 10px;
     font-family: "Roboto";
     font-size: 24px;
+    margin-bottom: 40px;
 }
 
 .header-logo {
@@ -45,4 +48,33 @@ ul {
 
 li {
     margin-left: 10px;
+}
+
+.entry {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.entry * {
+    flex: 1;
+}
+
+.entry-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.entry h2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.entry-image {
+    background-color: #7e7e7ea7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
 }
