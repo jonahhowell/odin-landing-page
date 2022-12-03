@@ -1,20 +1,11 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
-html, body {
-    margin: 0px;
-    padding: 0px;
-}
-
-.main-container {
+body {
     display: flex;
     flex-direction: column;
-    padding: 0px;
-    margin: 0px;
-    align-items: center;
 }
 
 .section-one {
