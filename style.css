@@ -17,7 +17,6 @@ body {
     padding-top: 16px;
     padding-left: 200px;
     padding-right: 200px;
-    border: 3px solid red; /* Debugging */
 }
 
 .header {
@@ -53,6 +52,7 @@ li {
 .entry {
     display: flex;
     margin-bottom: 100px;
+    gap: 20px;
 }
 
 .entry * {
@@ -69,10 +69,10 @@ li {
 .entry h2 {
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.entry button {
+.entry a {
     background-color: #3882F6;
     color: white;
     font-size: 20px;
