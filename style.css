@@ -7,6 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
 }
 
 .section-one {
@@ -92,7 +93,7 @@ li {
 }
 
 .section-two {
-    border: 3px solid red; /* Debugging */
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,6 +115,7 @@ li {
 .info-container h1 {
     font-size: 18px;
     width: 200px;
+    text-align: center;
 }
 
 .info-pic {
@@ -121,4 +123,9 @@ li {
     height: 200px;
     border: 3px solid #3882F6;
     border-radius: 10px;
+}
+
+.section-three {
+    border: 3px solid red;
+    background-color: #FFFFFF;
 }
