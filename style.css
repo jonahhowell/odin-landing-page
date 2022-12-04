@@ -147,3 +147,34 @@ li {
     margin-right: 120px;
     font-weight: bold;
 }
+
+.section-four {
+    background-color: white;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    color: white;
+    background-color: #3882F6;
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.button-two {
+    background-color: #3882F6;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
