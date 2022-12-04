@@ -26,7 +26,7 @@ body {
     color: white;
     font-family: "Roboto";
     font-size: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 .header-logo {
@@ -89,4 +89,36 @@ li {
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
+}
+
+.section-two {
+    border: 3px solid red; /* Debugging */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 40px;
+}
+
+.generalinfo-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.info-container h1 {
+    font-size: 18px;
+    width: 200px;
+}
+
+.info-pic {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
